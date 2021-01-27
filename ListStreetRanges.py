@@ -3,10 +3,11 @@
 # Created on 1/27/2021
 # Usage:
 # - Only change the dataset variables to get it to run
-# - Dataset variables are captalization sensitive
+# - Dataset variables for field names are captalization sensitive
 # - This is for 2 sided ranges (Left & Right)
 # - Need to ensure the low field is always lower or equal to the high field
-# - Does not account for GAPS in segements
+# - Does not account for gaps in segements. IE: 1-5, 15-20 will return a range of 1 to 20
+# - Does account minimally for 0 ranges accepting them only if no other ranges are apparent.
 # ---------------------------------------------------------------------------
           
 
