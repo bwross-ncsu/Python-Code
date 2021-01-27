@@ -15,7 +15,7 @@
 import arcpy, csv
 
 # Set Dataset Variables
-streetsDataset = "C:\GIS\ProductionData\Zuercher.gdb\Addressing\Centerlines"
+streetsDataset = "C:\GIS\MyData.gdb\Addressing\Centerlines"
 lowRangeLFieldName = 'FromAddr_L'
 lowRangeRFieldName = 'FromAddr_R'
 highRangeLFieldName = 'ToAddr_L'
